@@ -18,181 +18,267 @@ Each observation represents avg of observations collected for each  subject and 
 Original data is divided into two parts training and test with various sensor data and transformations performed on captured data. This script reads both training and test data and merged them into one data set. It also subsets mean and std variables from the given observations and creates a partial dataset. For each subject and observation is than filtered to create new dataset which is written to output_data.txt file. 
 
 
-AvgBodyAccelerometer.mean.X
-	.Time Body Accelerometer mean reading X  
-AvgBodyAccelerometer.mean.Y
-	.Time Body Accelerometer mean reading Y  
-AvgBodyAccelerometer.mean.Z
+-AvgBodyAccelerometer.mean.X <br />
+	.Time Body Accelerometer mean reading X 
+	 
+-AvgBodyAccelerometer.mean.Y <br />
+	.Time Body Accelerometer mean reading Y 
+	 
+-AvgBodyAccelerometer.mean.Z <br />
 	.Time Body Accelerometer mean reading Z  
-AvgBodyAccelerometer.std.X
+
+-AvgBodyAccelerometer.std.X <br />
 	.Time Body Accelerometer std reading X  
-AvgBodyAccelerometer.std.Y
+
+-AvgBodyAccelerometer.std.Y <br />
 	.Time Body Accelerometer std reading Y  
-AvgBodyAccelerometer.std.Z
+
+-AvgBodyAccelerometer.std.Z <br />
 	.Time Body Accelerometer std reading Z  
-AvgGravityAccelerometer.mean.X
+
+-AvgGravityAccelerometer.mean.X <br />
 	.Time Gravity Accelerometer mean reading X  
-AvgGravityAccelerometer.mean.Y
+
+-AvgGravityAccelerometer.mean.Y <br />
 	.Time Gravity Accelerometer mean reading Y  
-AvgGravityAccelerometer.mean.Z
+
+-AvgGravityAccelerometer.mean.Z <br />
 	.Time Gravity Accelerometer mean reading Z  
-AvgGravityAccelerometer.std.X
+
+-AvgGravityAccelerometer.std.X <br />
 	.Time Gravity Accelerometer std reading X  
-AvgGravityAccelerometer.std.Y
+
+-AvgGravityAccelerometer.std.Y <br />
 	.Time Gravity Accelerometer std reading Y  
-AvgGravityAccelerometer.std.Z
+
+-AvgGravityAccelerometer.std.Z <br />
 	.Time Gravity Accelerometer std reading Z  
-AvgBodyAccelerometerJerk.mean.X
+
+-AvgBodyAccelerometerJerk.mean.X <br />
 	.Time Body Accelerometer Jerk mean reading X  
-AvgBodyAccelerometerJerk.mean.Y
+
+-AvgBodyAccelerometerJerk.mean.Y <br />
 	.Time Body Accelerometer Jerk mean reading Y  
-AvgBodyAccelerometerJerk.mean.Z
+
+-AvgBodyAccelerometerJerk.mean.Z <br />
 	.Time Body Accelerometer Jerk mean reading Z  
-AvgBodyAccelerometerJerk.std.X
+
+-AvgBodyAccelerometerJerk.std.X <br />
 	.Time Body Accelerometer Jerk std reading X  
-AvgBodyAccelerometerJerk.std.Y
+
+-AvgBodyAccelerometerJerk.std.Y <br />
 	.Time Body Accelerometer Jerk std reading Y  
-AvgBodyAccelerometerJerk.std.Z
+
+-AvgBodyAccelerometerJerk.std.Z <br />
 	.Time Body Accelerometer Jerk std reading Z  
-AvgBodyGyroscope.mean.X
+
+-AvgBodyGyroscope.mean.X <br />
 	.Time Body Gyroscope mean reading X  
-AvgBodyGyroscope.mean.Y
+
+-AvgBodyGyroscope.mean.Y <br />
 	.Time Body Gyroscope mean reading Y  
-AvgBodyGyroscope.mean.Z
+
+-AvgBodyGyroscope.mean.Z <br />
 	.Time Body Gyroscope mean reading Z  
-AvgBodyGyroscope.std.X
+
+-AvgBodyGyroscope.std.X <br />
 	.Time Body Gyroscope std reading X  
-AvgBodyGyroscope.std.Y
+
+-AvgBodyGyroscope.std.Y <br />
 	.Time Body Gyroscope std reading Y  
-AvgBodyGyroscope.std.Z
+
+-AvgBodyGyroscope.std.Z <br />
 	.Time Body Gyroscope std reading Z  
-AvgBodyGyroscopeJerk.mean.X
+
+-AvgBodyGyroscopeJerk.mean.X <br />
 	.Time Body Gyroscope Jerk mean reading X  
-AvgBodyGyroscopeJerk.mean.Y
+
+-AvgBodyGyroscopeJerk.mean.Y <br />
 	.Time Body Gyroscope Jerk mean reading Y  
-AvgBodyGyroscopeJerk.mean.Z
+
+-AvgBodyGyroscopeJerk.mean.Z <br />
 	.Time Body Gyroscope Jerk mean reading Z  
-AvgBodyGyroscopeJerk.std.X
+
+-AvgBodyGyroscopeJerk.std.X <br />
 	.Time Body Gyroscope Jerk std reading X  
-AvgBodyGyroscopeJerk.std.Y
+
+-AvgBodyGyroscopeJerk.std.Y <br />
 	.Time Body Gyroscope Jerk std reading Y  
-AvgBodyGyroscopeJerk.std.Z
+
+-AvgBodyGyroscopeJerk.std.Z <br />
 	.Time Body Gyroscope Jerk std reading Z  
-AvgBodyAccelerometerMag.mean
+
+-AvgBodyAccelerometerMag.mean <br />
 	.Time Body Accelerometer Mag mean reading   
-AvgBodyAccelerometerMag.std
+
+-AvgBodyAccelerometerMag.std <br />
 	.Time Body Accelerometer Mag std reading   
-AvgBodyAccelerometerMag.std
+
+-AvgBodyAccelerometerMag.std <br />
 	.Time Body Accelerometer Mag mean reading   
-AvgGravityAccelerometerMag.mean
+
+-AvgGravityAccelerometerMag.mean <br />
 	.Time Gravity Accelerometer Mag mean reading   
-AvgGravityAccelerometerMag.std
+
+-AvgGravityAccelerometerMag.std <br />
 	.Time Gravity Accelerometer Mag std reading   
-AvgBodyAccelerometerJerkMag.mean
+
+-AvgBodyAccelerometerJerkMag.mean <br />
 	.Time Body Accelerometer Juerk Mag mean reading   
-AvgBodyAccelerometerJerkMag.std
+
+-AvgBodyAccelerometerJerkMag.std <br />
 	.Time Body Accelerometer Juerk Mag std reading   
-AvgBodyGyroscopeMag.mean
+
+-AvgBodyGyroscopeMag.mean <br />
 	.Time Body Gyroscope Mag mean reading   
-AvgBodyGyroscopeMag.mean
+
+-AvgBodyGyroscopeMag.mean <br />
 	.Time Body Gyroscope Mag mean reading   
-AvgBodyGyroscopeMag.std
+
+-AvgBodyGyroscopeMag.std <br />
 	.Time Body Gyroscope Mag std reading   
-AvgBodyGyroscopeJerkMag.mean
+
+-AvgBodyGyroscopeJerkMag.mean <br />
 	.Time Body Gyroscope Jerk Mag mean reading   
-AvgBodyGyroscopeJerkMag.std
-	.Time Body Gyroscope Jerk Mag std reading   
-AvgFrequeuencyBodyAccelerometer.mean.X
-	.Frequency Body Accelerometer mean reading X
-AvgFrequeuencyBodyAccelerometer.mean.Y
+
+-AvgBodyGyroscopeJerkMag.std <br />
+		.Time Body Gyroscope Jerk Mag std reading   
+
+-AvgFrequeuencyBodyAccelerometer.mean.X <br />
+	.Frequency Body Accelerometer mean reading X <br />  
+	
+		
+
+-AvgFrequeuencyBodyAccelerometer.mean.Y <br />
 	.Frequency Body Accelerometer mean reading Y
-AvgFrequeuencyBodyAccelerometer.mean.Z
+
+-AvgFrequeuencyBodyAccelerometer.mean.Z <br />
 	.Frequency Body Accelerometer mean reading Z
-AvgFrequeuencyBodyAccelerometer.std.X
+
+-AvgFrequeuencyBodyAccelerometer.std.X <br />
 	.Frequency Body Accelerometer std reading X
-AvgFrequeuencyBodyAccelerometer.std.Y
+
+-AvgFrequeuencyBodyAccelerometer.std.Y <br />
 	.Frequency Body Accelerometer std reading Y
-AvgFrequeuencyBodyAccelerometer.std.Z
+
+-AvgFrequeuencyBodyAccelerometer.std.Z <br />
 	.Frequency Body Accelerometer std reading Z
-AvgFrequeuencyBodyAccelerometer.meanFreq.X
+
+-AvgFrequeuencyBodyAccelerometer.meanFreq.X <br />
 	.Frequency Body Accelerometer mean reading X
-AvgFrequeuencyBodyAccelerometer.meanFreq.Y
+
+-AvgFrequeuencyBodyAccelerometer.meanFreq.Y <br />
 	.Frequency Body Accelerometer mean reading Y
-AvgFrequeuencyBodyAccelerometer.meanFreq.Z
+
+-AvgFrequeuencyBodyAccelerometer.meanFreq.Z <br />
 	.Frequency Body Accelerometer mean reading Y
-AvgFrequeuencyBodyAccelerometerJerk.mean.X
+
+-AvgFrequeuencyBodyAccelerometerJerk.mean.X <br />
 	.Frequency Body Accelerometer jerk mean reading X
-AvgFrequeuencyBodyAccelerometerJerk.mean.Y
+
+-AvgFrequeuencyBodyAccelerometerJerk.mean.Y <br />
 	.Frequency Body Accelerometer jerk mean reading Y
-AvgFrequeuencyBodyAccelerometerJerk.mean.Z
+
+-AvgFrequeuencyBodyAccelerometerJerk.mean.Z <br />
 	.Frequency Body Accelerometer jerk mean reading Z
-AvgFrequeuencyBodyAccelerometerJerk.std.X
+
+-AvgFrequeuencyBodyAccelerometerJerk.std.X <br />
 	.Frequency Body Accelerometer jerk std reading X
-AvgFrequeuencyBodyAccelerometerJerk.std.Y
+
+-AvgFrequeuencyBodyAccelerometerJerk.std.Y <br />
 	.Frequency Body Accelerometer jerk std reading Y
-AvgFrequeuencyBodyAccelerometerJerk.std.Z
+
+-AvgFrequeuencyBodyAccelerometerJerk.std.Z <br />
 	.Frequency Body Accelerometer jerk std reading Z
-AvgFrequeuencyBodyAccelerometerJerk.meanFreq.X
+
+-AvgFrequeuencyBodyAccelerometerJerk.meanFreq.X <br />
 	.Frequency Body Accelerometer jerk mean reading X
-AvgFrequeuencyBodyAccelerometerJerk.meanFreq.Y
+
+-AvgFrequeuencyBodyAccelerometerJerk.meanFreq.Y <br />
 	.Frequency Body Accelerometer jerk mean reading Y
-AvgFrequeuencyBodyAccelerometerJerk.meanFreq.Z
+
+-AvgFrequeuencyBodyAccelerometerJerk.meanFreq.Z <br />
 	.Frequency Body Accelerometer jerk mean reading Z
-AvgFrequeuencyBodyGyroscope.mean.X
+
+-AvgFrequeuencyBodyGyroscope.mean.X <br />
 	.Frequency Body Gyroscope mean reading X
-AvgFrequeuencyBodyGyroscope.mean.Y
+
+-AvgFrequeuencyBodyGyroscope.mean.Y <br />
 	.Frequency Body Gyroscope mean reading Y
-AvgFrequeuencyBodyGyroscope.mean.Z
+
+-AvgFrequeuencyBodyGyroscope.mean.Z <br />
 	.Frequency Body Gyroscope mean reading Z
-AvgFrequeuencyBodyGyroscope.std.X
+
+-AvgFrequeuencyBodyGyroscope.std.X <br />
 	.Frequency Body Gyroscope std reading X
-AvgFrequeuencyBodyGyroscope.std.Y
+
+-AvgFrequeuencyBodyGyroscope.std.Y <br />
 	.Frequency Body Gyroscope std reading Y
-AvgFrequeuencyBodyGyroscope.std.Z
+
+-AvgFrequeuencyBodyGyroscope.std.Z <br />
 	.Frequency Body Gyroscope std reading Z
-AvgFrequeuencyBodyGyroscope.meanFreq.X
+
+-AvgFrequeuencyBodyGyroscope.meanFreq.X <br />
 	.Frequency Body Gyroscope mean reading X
-AvgFrequeuencyBodyGyroscope.meanFreq.Y
+
+-AvgFrequeuencyBodyGyroscope.meanFreq.Y <br />
 	.Frequency Body Gyroscope mean reading Y
-AvgFrequeuencyBodyGyroscope.meanFreq.Z
+
+-AvgFrequeuencyBodyGyroscope.meanFreq.Z <br />
 	.Frequency Body Gyroscope mean reading Z
-AvgFrequeuencyBodyAccelerometerMag.mean
+
+-AvgFrequeuencyBodyAccelerometerMag.mean <br />
 	.Frequency Body Accelerometer mag mean reading 
-AvgFrequeuencyBodyAccelerometerMag.std
+
+-AvgFrequeuencyBodyAccelerometerMag.std <br />
 	.Frequency Body Accelerometer mag std reading 
-AvgFrequeuencyBodyAccelerometerMag.meanFreq
+
+-AvgFrequeuencyBodyAccelerometerMag.meanFreq <br />
 	.Frequency Body Accelerometer mag freq reading 
-AvgFrequeuencyBodyAccelerometerJerkMag.mean
+
+-AvgFrequeuencyBodyAccelerometerJerkMag.mean <br />
 	.Frequency Body Accelerometer Jerk mag reading 
-AvgFrequeuencyBodyAccelerometerJerkMag.std
+
+-AvgFrequeuencyBodyAccelerometerJerkMag.std <br />
 	.Frequency Body Accelerometer Jerk mag std reading 
-AvgFrequeuencyBodyAccelerometerJerkMag.meanFreq
+
+-AvgFrequeuencyBodyAccelerometerJerkMag.meanFreq <br />
 	.Frequency Body Accelerometer Jerk mag mean freq reading 
-AvgFrequeuencyBodyGyroscopeMag.mean
+
+-AvgFrequeuencyBodyGyroscopeMag.mean <br />
 	.Frequency Body Gyroscope mag mean reading 
-AvgFrequeuencyBodyGyroscopeMag.std
+
+-AvgFrequeuencyBodyGyroscopeMag.std <br />
 	.Frequency Body Gyroscope mag reading 
-AvgFrequeuencyBodyGyroscopeMag.std
+
+-AvgFrequeuencyBodyGyroscopeMag.std <br />
 	.Frequency Body Gyroscope mag reading 
-AvgFrequeuencyBodyGyroscopeMag.std
+
+-AvgFrequeuencyBodyGyroscopeMag.std <br />
 	.Frequency Body Gyroscope mag reading 
-AvgFrequeuencyBodyGyroscopeMag.meanFreq
+
+-AvgFrequeuencyBodyGyroscopeMag.meanFreq <br />
 	.Frequency Body Gyroscope mag mean reading 
-AvgFrequeuencyBodyGyroscopeJerkMag.mean
+
+-AvgFrequeuencyBodyGyroscopeJerkMag.mean <br />
 	.Frequency Body Gyroscope mag mean reading 
-AvgFrequeuencyBodyGyroscopeJerkMag.std
-	.Frequency Body Gyroscope mag mean reading 
-AvgFrequeuencyBodyGyroscopeJerkMag.meanFreq
-	.Frequency Body Gyroscope Jerk mag mean reading 
-Subject
-	Index of an subject volunteer 
-	1..30 Range 
-Activity
-	1..6 
-	1 .WALKING
-	2 .WALKING_UPSTAIRS
-	3 .WALKING_DOWNSTAIRS
-	4 .SITTING
-	5 .STANDING
-	6 .LAYING
+
+-AvgFrequeuencyBodyGyroscopeJerkMag.std <br />  
+       .Frequency Body Gyroscope mag mean reading  
+	
+
+-AvgFrequeuencyBodyGyroscopeJerkMag.meanFreq <br />
+	.Frequency Body Gyroscope Jerk mag mean reading
+ 
+-Subject <br />
+	Index of an subject volunteer who performed the activity <br />
+	1..30 Range  <br />
+-Activity <br />
+	1..6  <br />
+	1 .WALKING <br />
+	2 .WALKING_UPSTAIRS <br />
+	3 .WALKING_DOWNSTAIRS <br />
+	4 .SITTING <br />
+	5 .STANDING <br />
+	6 .LAYING <br />
 	
